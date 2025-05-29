@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maru的無名小站</title>
+    <style>
+        @font-face {
+            font-family: 'NaniFont-Regular';
+            src: url('NaniFont-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'NaniFont-Light';
+            src: url('NaniFont-Light.ttf') format('truetype');
+        }
+
+        body {
+            font-family: 'NaniFont-Light', cursive;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #fffef5;
+            color: #6b5520;
+        }
+        h1 {
+            margin-top: 50px;
+            font-size: 2.5em;
+            color: #f6c945;
+        }
+        img {
+            margin-top: 30px;
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border: 2px solid #f9e8a0;
+            border-radius: 50% / 40%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        }
+        .button-container {
+            margin-top: 40px;
+        }
+        .nav-button {
+            font-family: 'NaniFont-Light', cursive;
+            background-color: #fff4b2;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 1.1em;
+            color: #8c6d1f;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .nav-button:hover {
+            background-color: #ffe891;
+        }
+    </style>
+</head>
+<body>
+    <h1>Maru的無名小站</h1>
+    <img src="my-image.jpg" alt="首頁圖片">
+    <div class="button-container">
+        <button class="nav-button" onclick="location.href='a.html'">A</button>
+        <button class="nav-button" onclick="location.href='b.html'">B</button>
+        <button class="nav-button" onclick="location.href='c.html'">C</button>
+    </div>
+</body>
+</html>
